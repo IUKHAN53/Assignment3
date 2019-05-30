@@ -5,19 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Assignment3"
         mc:Ignorable="d"
-        Title="MainWindow" Height="687" Width="704">
+        Title="MainWindow" Height="922" Width="1174">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="455*"/>
-            <ColumnDefinition Width="386*"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
-        <DataGrid x:Name="empDataGrid" Height="245" VerticalAlignment="Top" Grid.ColumnSpan="2" Margin="10,40,10,0"/>
-        <DataGrid x:Name="ordDataGrid" Height="245" VerticalAlignment="Top" Grid.ColumnSpan="2" Margin="10,335,10,0"/>
-        <Button x:Name="addBtn" Content="Add" HorizontalAlignment="Left" Margin="140,595,0,0" VerticalAlignment="Top" Width="105" Height="46" BorderBrush="{x:Null}" FontSize="22" Click="AddBtn_Click"/>
-        <Label Content="Employees" HorizontalAlignment="Left" Margin="305,0,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="125" Height="40" FontSize="24" Background="{x:Null}"/>
-        <Label Content="Orders" HorizontalAlignment="Left" Margin="323,291,0,0" VerticalAlignment="Top" Width="82" Height="40" FontSize="24" Background="{x:Null}" Grid.ColumnSpan="2"/>
-        <Button x:Name="updateBtn" Content="Update" HorizontalAlignment="Left" Margin="315,595,0,0" VerticalAlignment="Top" Width="105" Height="46" BorderBrush="{x:Null}" FontSize="22" Grid.ColumnSpan="2" Click="UpdateBtn_Click"/>
-        <Button x:Name="delBtn" Content="Delete" HorizontalAlignment="Left" Margin="113,595,0,0" VerticalAlignment="Top" Width="110" Height="46" BorderBrush="{x:Null}" FontSize="22" Grid.Column="1" Click="DelBtn_Click"/>
+        <DataGrid x:Name="empDataGrid" Height="360" VerticalAlignment="Top" Margin="10,40,4,0"/>
+        <DataGrid x:Name="ordDataGrid" Height="335" VerticalAlignment="Top" Margin="4,440,10,0"/>
+        <Button x:Name="addBtn" Content="Add" Margin="60,805,906,26" BorderBrush="{x:Null}" FontSize="22" Click="AddBtn_Click"/>
+        <Label Content="Employees" HorizontalAlignment="Left" Margin="540,0,0,0" VerticalAlignment="Top" Width="130" Height="40" FontSize="24" Background="{x:Null}"/>
+        <Label Content="Orders" HorizontalAlignment="Left" Margin="555,400,0,0" VerticalAlignment="Top" Width="82" Height="40" FontSize="24" Background="{x:Null}"/>
+        <Button x:Name="updateBtn" Content="Update" Margin="490,805,471,31" BorderBrush="{x:Null}" FontSize="22" Click="UpdateBtn_Click"/>
+        <Button x:Name="delBtn" Content="Delete" Margin="905,805,86,26" BorderBrush="{x:Null}" FontSize="22" Click="DelBtn_Click"/>
 
     </Grid>
 </Window>

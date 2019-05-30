@@ -1,0 +1,25 @@
+﻿<Window x:Class="Assignment3.update"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Assignment3"
+        mc:Ignorable="d"
+        Title="update" Height="622" Width="629">
+    <Grid>
+        <Button Content="Update" HorizontalAlignment="Left" Margin="230,495,0,-74" VerticalAlignment="Top" Width="145" Height="55" Click="Button_Click" FontSize="22" BorderBrush="Black" Background="{x:Null}" RenderTransformOrigin="0.586,-0.545"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="70,110,0,0" VerticalAlignment="Top" Height="44" Width="137" Background="{x:Null}" BorderBrush="#FFECECEC" FontSize="22"/>
+        <Label Content="Update Product" Margin="205,30,191,506" FontSize="26" FontWeight="Bold"/>
+        <Label Content="Supplier" HorizontalAlignment="Left" Margin="70,175,0,0" VerticalAlignment="Top" Height="43" Width="137" Background="{x:Null}" BorderBrush="#FFECECEC" FontSize="22"/>
+        <Label Content="Category" HorizontalAlignment="Left" Margin="70,246,0,0" VerticalAlignment="Top" Height="43" Width="137" Background="{x:Null}" BorderBrush="#FFECECEC" FontSize="22"/>
+        <TextBox x:Name="QuantityF" HorizontalAlignment="Left" Height="48" Margin="230,316,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="308" FontSize="22"/>
+        <Label Content="Quantity" HorizontalAlignment="Left" Margin="70,320,0,0" VerticalAlignment="Top" Height="44" Width="137" Background="{x:Null}" BorderBrush="#FFECECEC" FontSize="22"/>
+        <TextBox x:Name="PriceF" HorizontalAlignment="Left" Height="49" Margin="230,391,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="308" FontSize="22"/>
+        <Label Content="Price" HorizontalAlignment="Left" Margin="70,396,0,0" VerticalAlignment="Top" Height="44" Width="137" Background="{x:Null}" BorderBrush="#FFECECEC" FontSize="22"/>
+        <ComboBox x:Name="NameC" HorizontalAlignment="Left" Margin="230,110,0,0" VerticalAlignment="Top" Width="308" Height="44" SelectionChanged="selc"/>
+        <TextBox x:Name="SupplierF" HorizontalAlignment="Left" Height="48" Margin="232,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="308" FontSize="22"/>
+        <TextBox x:Name="QuantityF1" HorizontalAlignment="Left" Height="48" Margin="230,316,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="308" FontSize="22"/>
+        <TextBox x:Name="CategoryF" HorizontalAlignment="Left" Height="48" Margin="232,246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="308" FontSize="22"/>
+
+    </Grid>
+</Window>
