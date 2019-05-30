@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Assignment3"
         mc:Ignorable="d"
-        Title="delete" Height="450" Width="800">
-    <Grid>
-        
+        Title="delete" Height="372" Width="434">
+    <Grid RenderTransformOrigin="0.493,0.487">
+        <Label Content="Delete Product" HorizontalAlignment="Left" Margin="139,45,0,0" VerticalAlignment="Top" Height="40" Width="150" FontSize="20" FontWeight="Bold" RenderTransformOrigin="0.5,0.5"/>
+        <Label Content="Product Name" HorizontalAlignment="Left" Margin="154,110,0,0" VerticalAlignment="Top" Height="30" Width="105" FontSize="14" FontWeight="Bold" RenderTransformOrigin="0.5,0.5"/>
+        <ComboBox x:Name="productC" HorizontalAlignment="Left" Margin="89,145,0,0" VerticalAlignment="Top" Width="235" Height="30" FontSize="16"/>
+        <Button x:Name="del" Content="Delete" HorizontalAlignment="Left" Margin="149,190,0,0" VerticalAlignment="Top" Width="130" Height="30" FontSize="18" BorderBrush="Black" Background="{x:Null}" Click="Del_Click"/>
+        <Label x:Name="confirmLbl" Content="" Margin="30,245,32,66" Height="30" FontSize="14" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Foreground="#FF02FF19"/>
+
     </Grid>
 </Window>
